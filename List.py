@@ -1,10 +1,11 @@
 nilai = [1,2,3,4,5]
 print(nilai)
-
+data = int(input("Tambahkan nilai : "))
 #menyisipkan data
 nilai.append(10)
 nilai.append(12)
 nilai.append(14)
+nilai.append(data)
 print(nilai)
 
 #print berdasarkan indeks
