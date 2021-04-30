@@ -26,7 +26,6 @@ elif pilih_menu == 2:
         "No telepon :" : tambah_nomor,
     }
     kontak_in_list.append(data)
-    print("Daftar kontak")
     for i in kontak_in_list:
         print("Nama : ",i["Nama :"])
         print("No telepon :",i["No telepon :"])
