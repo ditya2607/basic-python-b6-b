@@ -15,8 +15,8 @@ pilih_menu = int(input("Pilih menu : "))
 
 
 if pilih_menu == 1:
+    print("Daftar kontak")
     for x,y in daftar_kontak.items():
-        print("Daftar kontak")
         print(x,y)
 elif pilih_menu == 2:
     tambah_nama = input("Nama : ")
