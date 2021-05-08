@@ -12,17 +12,17 @@ def sapa():
 sapa()
 def say_hay():
     print("Hey")
-
+say_hay()
 def tanya_kabar():
     print("Apa kabs?")
+tanya_kabar()
 
+# def perkenalan(nama,umur):
+#     print("Perkenalkan namaku "+nama)
+#     print("Umurku "+umur)
 
-def perkenalan(nama,umur):
-    print("Perkenalkan namaku "+nama)
-    print("Umurku "+umur)
-
-nama = input("Masukkan nama kamu : ")
-umur = input("Masukkan umur kamu : ")
-perkenalan (nama,umur)
+# nama = input("Masukkan nama kamu : ")
+# umur = input("Masukkan umur kamu : ")
+# perkenalan (nama,umur)
 
 #perkenalan(umur = "22", nama = "tyo")

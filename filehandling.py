@@ -1,10 +1,10 @@
-#file = open("teks.txt",'r')
+file = open("teks.txt",'r')
 
+print(file.read())
 #print(file.readline())
 #print(file.readlines())
-#file.write("\nHalo halo halo")
 
 #for isi in file:
-   # print(isi)
-#file.close()
-
+#   tambah = isi
+#print(tambah)
+file.close()
